@@ -53,7 +53,7 @@ full = [
 members = ["macros"]
 
 [dev-dependencies]
-iced = { git = "https://github.com/iced-rs/iced.git" }
+iced = { git = "https://github.com/iced-rs/iced.git", branch = "master", features = ["tokio", "svg", "image", "wgpu"] }
 
 [dependencies]
 iced_fonts_macros = {path = "macros"}
