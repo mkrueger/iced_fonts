@@ -62,8 +62,8 @@ iced_core.workspace = true
 iced_widget.workspace = true
 
 [workspace.dependencies]
-iced_core = { git = "https://github.com/iced-rs/iced.git" }
-iced_widget = { git = "https://github.com/iced-rs/iced.git" }
+iced_core = { git = "https://github.com/iced-rs/iced.git", branch = "master" }
+iced_widget = { git = "https://github.com/iced-rs/iced.git", branch = "master" }
 proc-macro2 = "1"
 quote = "1"
 syn = "2"
